@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class CalcController extends Controller
+class CalcsController extends Controller
 {
-  public function calc($num1,$operator,$num2)
+  public function result($num1,$operator,$num2)
   {
     $result = '';
 

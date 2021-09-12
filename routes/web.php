@@ -17,4 +17,4 @@ Route::get('/', function () {
     return '<h1>Hello from Root!!</h1>';
 });
 
-Route::get('/calcs/{num1}/{operator}/{num2}', [App\Http\Controllers\CalcController::class, 'calc']);
+Route::get('/calcs/{num1}/{operator}/{num2}', [App\Http\Controllers\CalcsController::class, 'result']);
